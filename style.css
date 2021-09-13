@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.topbar-header {
+    background-color: #f4f4f7;
+    color: #fff;
+    padding: 7px 0;
+    width: 100%;
+}
+.topbar-header a {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    background-color: #8bc34a;
+    line-height: 1.42857;
+    padding: 4px 10px;
+    border: 1px solid ;
+    border-style: solid #8bc34a;
+    border-radius: 3px;
+    margin-left: 63px;
+}
+.topbar-header span{
+    color: #008000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-container{
+    float: right;
+}
+.right-container a{
+    margin-left: 0;
+
+}
+.right-container a:last-child{
+    margin-right: 60px;
+}
+.topnavbar{
+    height: 90px;
+    background-color: #8bf60e;
+    width: 100%;
+    display: flex;
+
+}
+.navbar {
+    width: 100%;
+    left: 300px;
+    display: flex;
+    top: 55px;
+
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-left: 1px solid #ffffff ;
+    padding-top:30px
+}
+  
+.navbar a:hover {
+    color: black;
+ }
+ .navbar a:last-child{
+     border-right:1px solid #ffffff  ;
+ }
+.cover{
+    height: 400px;
+    width: 100%;
+    background-color: #5D973C;
+    display: flex;
+
+} 
+.coverd h1{
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 45px;
+}
+.coverd a{
+        background: #8224e3;
+        border-color: #8224e3;
+        color: #fff;
+        font-size: 12px;
+        padding: 6px 101px;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-left: 8px;
+}
+.packages h1{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    background-color: #F4F4F7;
+    border-bottom: 2px solid #5D973C;
+}
+.packageslist{
+    display: flex;
+}
+.packages1{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    height: 542px;
+    width: 239px;
+    background-color:#fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 4px #888888;
+
+}
+.span{
+    height: 237px;
+    width: 240px;
+    font-weight: 700;
+    background-color: #7BC525;
+    font-size: 19px;
+    color: white;
+    border-radius: 2px 2px 0 0;
+}
+.ss{
+    font-size: 20px;
+}
+.packages1 .span pre{
+padding-top: 33px;
+padding-left: 20px;
+
+}
+.packageslist li{
+font-size: 14px;
+line-height: 26px;
+padding-left: 20px;
+color: #444444;
+}
+.packageslist a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: #7BC525;
+    padding: 5px 72px;
+    border-radius: 2px;
+}
+.features{
+    width: 100%;
+
+}
+.features h1{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    background-color: #F4F4F7;
+}
+.feature{
+    background-color: #F4F4F7;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding-right: 108px;
+}
+.feature1 img{
+margin-left: 150px;
+margin-top: 30px;
+}
+.feature1 h3{
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: 9px;
+}
+.feature1 p{
+    margin-left: 100px;
+    color: #444444 ;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.feature1{
+    width: 498px;
+    margin: auto;
+}
+.div img{
+    margin-top:50px;
+    width: 100%;
+}
+footer{
+    margin-top: 0;
+    height: 320px;
+    width: 100%;
+    margin: auto;
+    background-color: #37B20A;
+    display: flex;
+}
+.footerlogo img{
+    margin-left: 15px;
+}
+.footerlogo p{
+    padding: 18px 0;
+    color: white;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.footerlogo h1{
+    font-size:16px ;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.fa-map-marker , .fa-phone , .fa-envelope{
+display: inline-block;
+background-color: #1846A8;
+padding:9px 12px;
+border-radius: 1px;
+font-size: 11px;
+}
+.footerlogo p{
+padding: 18px 0;
+color: white;
+font-size: 14px;
+}
+.logo h1{
+    font-size:16px ;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.logo h2{
+    font-size:18px ;
+    color: white;
+    margin-top:7px;
+    margin-left: 50px;
+}
+.logo{
+    width: 30%;
+    margin-left: 50px;
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 40px;
+}
